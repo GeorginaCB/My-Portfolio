@@ -3,7 +3,7 @@ import { XCircle } from "@phosphor-icons/react";
 import { Footer } from "../components/footer";
 import { Header } from "../components/header";
 
-export const about = () => {
+export const details = () => {
 
   return (
     <div className="flex flex-col ">
