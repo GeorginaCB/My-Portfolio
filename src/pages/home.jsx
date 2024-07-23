@@ -8,8 +8,10 @@ export const Home = () => {
       <Header />
       <section className="py-6 px-2 mb-1">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl font-bold sm:text-5xl">Bem-vindo à Página Inicial</h1>
-          <p className="text-lg">Explore nosso site para descobrir soluções incríveis.</p>
+          <h1 className="text-2xl font-bold sm:text-5xl">PRAZER SOU GEORGINA MANGUANA</h1>
+          <h1 className="text-xl font-bold sm:text-5xl">AGRÔNOMA<span> E JUNIOR FULLSTACK</span></h1>
+          <p className="text-lg text-justify">Olá! Sou Georgina David, uma profissional multifacetado com paixão tanto pela agronomia quanto pelo desenvolvimento frontend. Com uma sólida formação em Engenharia Agronômica e habilidades avançadas em design e desenvolvimento web, Meu compromisso com a excelência se reflete na qualidade dos meus serviços, seja na consultoria agronômica ou no desenvolvimento frontend, garantindo a satisfação dos meus clientes e parceiros.</p>
+          <p className="text-lg text-justify">Minha missão é promover a sustentabilidade e a inovação, tanto no campo da agronomia quanto no mundo digital. Acredito que a combinação de conhecimentos em agronomia e desenvolvimento frontend pode resultar em soluções inovadoras que beneficiam tanto a agricultura quanto a tecnologia.</p>
         </div>
       </section>
       <section className="mb-1">
@@ -19,30 +21,7 @@ export const Home = () => {
           </div>
         </div>
       </section>
-      <section className="py-12 bg-gray-100">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">Nossos Serviços</h2>
-          <p className="text-gray-700 mb-8">Descubra como podemos ajudar você a alcançar seus objetivos.</p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-            <div className="bg-pink-600 rounded-lg shadow-md p-6">
-              <h3 className="text-xl font-bold mb-2">Serviço 1</h3>
-              <p className="text-gray-700">Desenvolvimento Front-end.</p>
-              <a href="/servico-1" className="text-white hover:underline">Saiba Mais &rarr;</a>
-            </div>
-            <div className="bg-pink-600 rounded-lg shadow-md p-6">
-              <h3 className="text-xl font-bold mb-2">Serviço 2</h3>
-              <p className="text-gray-700">Desenvolvimento Back-end.</p>
-              <a href="/servico-2" className="text-white hover:underline">Saiba Mais &rarr;</a>
-            </div>
-            <div className="bg-pink-600 rounded-lg shadow-md p-6">
-              <h3 className="text-xl font-bold mb-2">Serviço 3</h3>
-              <p className="text-gray-700">Agronomia</p>
-              <a href="/servico-2" className="text-white hover:underline">Saiba Mais &rarr;</a>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      
       <Footer />
     </>
   );

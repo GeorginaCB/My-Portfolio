@@ -2,7 +2,8 @@ import { createBrowserRouter, } from "react-router-dom";
 import { Home } from "./pages/home";
 import { Contact } from "./pages/contact";
 import { Project } from "./pages/project";
-import { details } from "./pages/details";
+import { Resume } from "./pages/resume";
+
 
 export const route = createBrowserRouter([
   {
@@ -18,17 +19,15 @@ export const route = createBrowserRouter([
     element: <Project />,
   },
   {
-    path: "/about",
-    element: <abour/>
+    path: "/resumo",
+    element: <Resume />,
   },
   {
     path: "/detalhes",
-    element: <deta/>
+    element: <details/>
   },
   {
     path: "/servico-1",
     element: <details/>
   },
-  
- 
 ]);

@@ -17,16 +17,16 @@ export const Header = () => {
         </div>
         <div className="hidden md:flex items-center">
           <Link to="/" className="mr-4 hover:text-rose-950">
-            <span className="text-lg">Home</span>
-          </Link>
-          <Link to="/users" className="mr-4 hover:text-rose-950">
             <span className="text-lg">Sobre-min</span>
           </Link>
-          <Link to="/contact" className="hover:text-rose-950">
+          <Link to="/contact" className="mr-4 hover:text-rose-950">
             <span className="text-lg">Contacto</span>
           </Link>
-          <Link to="/users" className="mr-4 hover:text-rose-950">
-            <span className="text-lg">Projectos</span>
+          <Link to="/projetos" className="mr-4 hover:text-rose-950">
+            <span className="text-lg">Projetos</span>
+          </Link>
+          <Link to="/resumo" className="mr-4 hover:text-rose-950">
+            <span className="text-lg">Resumo</span>
           </Link>
         </div>
         <div className="md:hidden flex items-center">
@@ -43,21 +43,28 @@ export const Header = () => {
               className="text-sm block py-1 hover:text-rose-950"
               onClick={toggleMenu}
             >
-              Home
+              Sobre-min
             </Link>
             <Link
-              to="/users"
+              to="/project"
               className="text-sm block py-1 hover:text-rose-950"
               onClick={toggleMenu}
             >
-              Lista de Estudantes
+              Contacto
             </Link>
             <Link
               to="/contact"
               className="text-sm block py-1 hover:text-rose-950"
               onClick={toggleMenu}
             >
-              Contacte-nos
+              Projetos
+            </Link>
+            <Link
+              to="/resume"
+              className="text-sm block py-1 hover:text-rose-950"
+              onClick={toggleMenu}
+            >
+              Resumo
             </Link>
           </div>
         </div>

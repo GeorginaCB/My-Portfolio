@@ -6,7 +6,7 @@ export const Footer = () => {
   <div className="container mx-auto px-4 text-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
     <div className="w-full">
       <h3 className="text-lg font-bold">Meu Portfólio</h3>
-      <p>© 2024 Todos os direitos reservados</p>
+      <p> GDC © 2024 Todos os direitos reservados</p>
       <p>Termos de uso</p>
       <p>Política de privacidade</p>
     </div>
