@@ -9,29 +9,26 @@ export const Project = () => {
     <div className="flex flex-col ">
       <Header />
       <div className="flex-grow">
-      <section className="py-12 bg-gray-100">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">Nossos Serviços</h2>
-          <p className="text-gray-700 mb-8">Descubra como podemos ajudar você a alcançar seus objetivos.</p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-            <div className="bg-pink-600 rounded-lg shadow-md p-6">
-              <h3 className="text-xl font-bold mb-2">Serviço 1</h3>
-              <p className="text-gray-700">Desenvolvimento Front-end.</p>
-              <a href="/servico-1" className="text-white hover:underline">Saiba Mais &rarr;</a>
+      <section>
+          <h2 className="text-2xl font-bold mb-4">Projetos Destacados</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="bg-white rounded-lg shadow-md p-6">
+              <h3 className="text-lg font-bold mb-2"> Projeto 1</h3>
+              <p className="text-gray-600 mb-4">Breve descrição do projeto.</p>
+              <a href="#" className="text-rose-950 hover:underline">Ver projeto</a>
             </div>
-            <div className="bg-pink-600 rounded-lg shadow-md p-6">
-              <h3 className="text-xl font-bold mb-2">Serviço 2</h3>
-              <p className="text-gray-700">Desenvolvimento Back-end.</p>
-              <a href="/servico-2" className="text-white hover:underline">Saiba Mais &rarr;</a>
+            <div className="bg-white rounded-lg shadow-md p-6">
+              <h3 className="text-lg font-bold mb-2">Projeto 2</h3>
+              <p className="text-gray-600 mb-4">Breve descrição do projeto.</p>
+              <a href="#" className="text-rose-950 hover:underline">Ver projeto</a>
             </div>
-            <div className="bg-pink-600 rounded-lg shadow-md p-6">
-              <h3 className="text-xl font-bold mb-2">Serviço 3</h3>
-              <p className="text-gray-700">Agronomia</p>
-              <a href="/servico-2" className="text-white hover:underline">Saiba Mais &rarr;</a>
+            <div className="bg-white rounded-lg shadow-md p-6">
+              <h3 className="text-lg font-bold mb-2"> Projeto 3</h3>
+              <p className="text-gray-600 mb-4">Breve descrição do projeto.</p>
+              <a href="#" className="text-rose-950 hover:underline">Ver projeto</a>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
       </div>
 

@@ -20,32 +20,32 @@ export const Footer = () => {
       <div className="text-center">
         <h3 className="text-lg font-bold">Redes Sociais</h3>
         
-        <ul className="list-none px-32 py-2 ">
-          <li className="flex items-center mt-2">
+        <div className="flex justify-center mt-4 space-x-4">
+          <div className="flex items-center">
             <FacebookLogo className="mr-2" size={22} />
             <a href="https://www.facebook.com/georginadavid.cumbe" target="_blank" rel="noopener noreferrer" className="text-rose-950 hover:underline">
               Facebook
             </a>
-          </li>
-          <li className="flex items-center mt-2">
+          </div>
+          <div className="flex items-center">
             <InstagramLogo className="mr-2" size={22} />
             <a href="https://www.instagram.com/georgina_cumbe?igsh=ZDRsOTlnZ3R3Z3I5" target="_blank" rel="noopener noreferrer" className="text-rose-950 hover:underline">
               Instagram
             </a>
-          </li>
-          <li className="flex items-center mt-2">
+          </div>
+          <div className="flex items-center">
             <LinkedinLogo className="mr-2" size={22} />
             <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BOc9NfZEpQC6VI7Zojas4Mw%3D%3D" target="_blank" rel="noopener noreferrer" className="text-rose-950 hover:underline">
               Linkedin
             </a>
-          </li>
-          <li className="flex items-center mt-2">
+          </div>
+          <div className="flex items-center">
             <GithubLogo className="mr-2" size={22} />
             <a href="https://github.com/GeorginaCB/Georgina-Cumbe.git" target="_blank" rel="noopener noreferrer" className="text-rose-950 hover:underline">
-            Github
+              Github
             </a>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
     </div>
     <div className="w-full">

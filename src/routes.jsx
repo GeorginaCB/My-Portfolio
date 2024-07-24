@@ -1,33 +1,25 @@
 import { createBrowserRouter, } from "react-router-dom";
-import { Home } from "./pages/home";
 import { Contact } from "./pages/contact";
-import { Project } from "./pages/project";
 import { Resume } from "./pages/resume";
+import { Project } from "./pages/project";
+import { Home } from "./pages/home";
 
 
 export const route = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <Home/>,
   },
   {
-    path: "/contactos",
+    path: "/contact",
     element: <Contact/>
   },
   {
-    path: "/projetos",
-    element: <Project />,
+    path: "/project",
+    element: <Project/>,
   },
   {
-    path: "/resumo",
-    element: <Resume />,
-  },
-  {
-    path: "/detalhes",
-    element: <details/>
-  },
-  {
-    path: "/servico-1",
-    element: <details/>
+    path: "/resume",
+    element: < Resume/>,
   },
 ]);
