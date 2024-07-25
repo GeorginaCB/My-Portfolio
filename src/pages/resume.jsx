@@ -10,7 +10,7 @@ export const Resume = () => {
       <section className="mb-8">
           <h1 className="text-3xl font-bold mb-4">Resumo do Portfólio</h1>
           <p className="text-lg text-gray-700 leading-relaxed">
-            Sou um profissional apaixonado por tecnologia, com experiência em desenvolvimento web e móvel. Minhas habilidades incluem HTML, CSS, JavaScript, React, Node.js e React Native. Busco sempre aprender novas tecnologias e aplicar meus conhecimentos para criar soluções eficientes e inovadoras.
+          Georgina Manguana é uma profissional multifacetada, combinando uma sólida formação em Agronomia com habilidades emergentes como Junior Fullstack. Com sua paixão pela agronomia e desenvolvimento de software, ela se destaca na aplicação de conhecimentos agrícolas avançados e na criação de soluções inovadoras para desafios contemporâneos.
           </p>
         </section>
       <div className="flex-grow bg-gray-100 p-6">
@@ -33,11 +33,20 @@ export const Resume = () => {
             </ul>
           </div>
           <div className="mb-8">
-            <h2 className="text-2xl font-bold mb-2 text-center sm:text-left">Habilidades Profissionais</h2>
+          <h2 className="text-2xl font-bold mb-2 text-center sm:text-left">Habilidades Profissionais</h2>
             <ul className="list-disc pl-4">
-              <li>Design</li>
-              <li>Frontend</li>
-              <li>Backend</li>
+          <h3>Agronomia:</h3>
+            <li>Gestão de culturas para otimização da produção agrícola.</li>
+            <li>Manejo sustentável de recursos naturais e práticas de conservação.</li>
+            <li>Conhecimento avançado em fitotecnia, zootecnia e ciências agrárias.</li>
+            <li>Diagnóstico preciso e controle integrado de pragas e doenças.</li>
+            <li>Utilização de tecnologias agrícolas modernas, como GIS e agricultura de precisão.</li>
+          <h3>Desenvolvimento Fullstack:</h3>
+            <li>Domínio de HTML, CSS e JavaScript para desenvolvimento frontend.</li>
+            <li>Experiência com frameworks como React.js e Vue.js para criação de interfaces dinâmicas.</li>
+            <li>Conhecimento em Node.js e Express.js para desenvolvimento backend.</li>
+            <li>Integração e gestão de bancos de dados como MongoDB, MySQL, ou PostgreSQL.</li>
+            <li>Uso de Git e GitHub para controle de versão e colaboração em equipe.</li>
             </ul>
           </div>
           <div>
