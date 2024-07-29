@@ -10,11 +10,10 @@ export const Resume = () => {
       <section className="mb-8">
           <h1 className="text-3xl font-bold mb-4">Resumo do Portfólio</h1>
           <p className="text-lg text-gray-700 leading-relaxed">
-          Georgina Manguana é uma profissional multifacetada, combinando uma sólida formação em Agronomia com habilidades emergentes como Junior Fullstack. Com sua paixão pela agronomia e desenvolvimento de software, ela se destaca na aplicação de conhecimentos agrícolas avançados e na criação de soluções inovadoras para desafios contemporâneos.
+          Georgina Manguana é uma profissional versátil, combinando uma sólida formação em Agronomia com habilidades emergentes como Junior Fullstack. Com sua paixão pela agronomia e desenvolvimento de software, ela se destaca na aplicação de conhecimentos agrícolas avançados e na criação de soluções inovadoras para desafios contemporâneos.
           </p>
         </section>
       <div className="flex-grow bg-gray-100 p-6">
-        <div className="max-w-4xl mx-auto">
           <div className="mb-8">
             <h2 className="text-2xl font-bold mb-2 text-center sm:text-left"> Formação</h2>
             <ul className="list-disc pl-4">
@@ -33,20 +32,30 @@ export const Resume = () => {
             </ul>
           </div>
           <div className="mb-8">
-          <h2 className="text-2xl font-bold mb-2 text-center sm:text-left">Habilidades Profissionais</h2>
+          <h2 className="text-2xl font-bold mb-2 text-center sm:text-left">Habilidades Técnicas</h2>
             <ul className="list-disc pl-4">
-          <h3>Agronomia:</h3>
-            <li>Gestão de culturas para otimização da produção agrícola.</li>
-            <li>Manejo sustentável de recursos naturais e práticas de conservação.</li>
-            <li>Conhecimento avançado em fitotecnia, zootecnia e ciências agrárias.</li>
-            <li>Diagnóstico preciso e controle integrado de pragas e doenças.</li>
-            <li>Utilização de tecnologias agrícolas modernas, como GIS e agricultura de precisão.</li>
-          <h3>Desenvolvimento Fullstack:</h3>
-            <li>Domínio de HTML, CSS e JavaScript para desenvolvimento frontend.</li>
-            <li>Experiência com frameworks como React.js e Vue.js para criação de interfaces dinâmicas.</li>
-            <li>Conhecimento em Node.js e Express.js para desenvolvimento backend.</li>
-            <li>Integração e gestão de bancos de dados como MongoDB, MySQL, ou PostgreSQL.</li>
-            <li>Uso de Git e GitHub para controle de versão e colaboração em equipe.</li>
+            <li>Design</li>
+            <li>Frontend: HTML5, CSS3, JavaScrip, React.js;</li>
+            <li>Backend: Node.js (Express), MongoDB;</li>
+            <li>Ferramentas e Plataformas: Git, GitHub;</li>
+            </ul>
+          </div>
+          <div className="mb-8">
+            <h2 className="text-2xl font-bold mb-2 text-center sm:text-left"> Projetos Pessoais</h2>
+            <ul className="list-disc pl-4">
+              <li>Blog Pessoal (React.js): Desenvolvimento de um blog pessoal utilizando React.js, com funcionalidades de login, posts dinâmicos e interação com APIs externas.</li>
+              <li>*</li>
+              <li>*</li>
+              <li>*</li>
+            </ul>
+          </div>
+          <div>
+            <h2 className="text-2xl font-bold mb-2 text-center sm:text-left">Soft Skills </h2>
+            <ul className="list-disc pl-4">
+              <li>Resolução de Problemas</li>
+              <li>Trabalho em Equipe</li>
+              <li>Habilidades interpessoais.</li>
+              <li>Autonomia</li>
             </ul>
           </div>
           <div>
@@ -57,7 +66,7 @@ export const Resume = () => {
               <li>Inglês Básico</li>
             </ul>
           </div>
-        </div>
+        
       </div>
       <Footer />
     </div>
