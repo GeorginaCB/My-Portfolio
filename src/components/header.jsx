@@ -1,8 +1,6 @@
 import { List } from "@phosphor-icons/react";
-
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -13,7 +11,7 @@ export const Header = () => {
     <nav className="bg-rose-700 text-white py-4">
       <div className="container mx-auto flex justify-between items-center">
         <div className=" border-2 border-gray-300 rounded-lg px-2 flex items-center ml-3">
-          <p className="text-lg px-4 hover:text-rose-950">Geor</p>
+          <p className="text-lg px-4 hover:text-rose-950">Portfólio</p>
         </div>
         <div className="hidden md:flex items-center">
           <Link to="/" className="mr-4 hover:text-rose-950">
@@ -22,11 +20,11 @@ export const Header = () => {
           <Link to="/contact" className="mr-4 hover:text-rose-950">
             <span className="text-lg">Contacto</span>
           </Link>
-          <Link to="/projetos" className="mr-4 hover:text-rose-950">
-            <span className="text-lg">Projetos</span>
+          <Link to="/project" className="mr-4 hover:text-rose-950">
+            <span className="text-lg">Project</span>
           </Link>
-          <Link to="/resumo" className="mr-4 hover:text-rose-950">
-            <span className="text-lg">Resumo</span>
+          <Link to="/resume" className="mr-4 hover:text-rose-950">
+            <span className="text-lg">Resume</span>
           </Link>
         </div>
         <div className="md:hidden flex items-center">
@@ -46,14 +44,14 @@ export const Header = () => {
               Sobre-min
             </Link>
             <Link
-              to="/project"
+              to="/contact"
               className="text-sm block py-1 hover:text-rose-950"
               onClick={toggleMenu}
             >
               Contacto
             </Link>
             <Link
-              to="/contact"
+              to="/projetos"
               className="text-sm block py-1 hover:text-rose-950"
               onClick={toggleMenu}
             >
