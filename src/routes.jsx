@@ -1,8 +1,8 @@
 import { createBrowserRouter, } from "react-router-dom";
-import { Contact } from "./pages/contact";
 import { Resume } from "./pages/resume";
 import { Project } from "./pages/project";
 import { Home } from "./pages/home";
+import { Contact } from "./pages/contact";
 
 
 export const route = createBrowserRouter([
